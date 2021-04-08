@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, "PingFang SC", "Microsoft Yahei", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* 比html tag的优先级更高,声明全局变量 */
+
+:root {
+    --primary-color: #ff434f;
+    --secondary-color: #e3e3e3;
+    --text-color-lightest: #e7e9ec;
+    --text-color-darker: #2e2e2e;
+    --text-color-gray: #8b8b8b;
+    --text-color-dark-gray: #727272;
+    --text-color-light-gray: #c6c6c6;
+    --backdrop-color: rgba(42, 42, 42, 0.69);
+}
+
+header {
+    width: 100vw;
+}
